@@ -1,0 +1,14 @@
+page{
+  background-color:#efefef;
+  height:100%;
+}
+
+.noscroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  box-sizing: border-box;
+}
