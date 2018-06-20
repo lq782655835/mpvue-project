@@ -83,7 +83,7 @@
     "minapp-api-promise": "^1.0.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
-    "sass-resources-loader": "^1.3.3",
+    "sass-resources-loader": "^1.3.3"
   },
   "engines": {
     "node": ">= 4.0.0",
