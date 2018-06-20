@@ -8,7 +8,7 @@
             <p>支持vue双向绑定，简单js计算</p>
         </div>
         this is demo page
-        <p>{{field1}}   {{1+1}}{{1+1 ? 'is true' : 'is false'}}</p>
+        <p>\{{field1}}   \{{1+1}}\{{1+1 ? 'is true' : 'is false'}}</p>
         <div class="title">scss，scss-resource能力
             <p>npm install sass-loader node-sass sass-resources-loader</p>
         </div>
@@ -21,21 +21,21 @@
             Vuex Store
             <p>store绑定到vue原型链，使得各页面共享</p>
         </div>
-        {{str}} <button @click="changeStore">修改store</button>
+        \{{str}} <button @click="changeStore">修改store</button>
         <div class="title">
             Http
             <p>flyio框架，可增加api层，或者直接绑定到$http</p>
         </div>
         <div v-for="(item, index) in list" :key="item.id">
-            <p>id: {{item.id}}</p>
-            <p>author_id: {{item.author_id}}</p>
+            <p>id: \{{item.id}}</p>
+            <p>author_id: \{{item.author_id}}</p>
         </div>
         <div class="title">
             wx promise
             <p>npm install minapp-api-promise</p>
         </div>
         <div>
-            <p>winWidth: {{sysInfo.windowWidth}}</p>
+            <p>winWidth: \{{sysInfo.windowWidth}}</p>
         </div>
       </div>
 </template>
