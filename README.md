@@ -1,6 +1,6 @@
 # mpvue-project
 
- > 快速开始mpvue工程化项目。项目采用vuex + sass + sass resouce + flyio + wpx技术栈。
+ > 快速开始mpvue工程化项目。项目采用vuex + sass + sass resouce + flyio + wpx技术栈。
 
 ## 基本用法
 ``` bash
